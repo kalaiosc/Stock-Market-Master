@@ -1,4 +1,4 @@
-# Spring Boot Application Super Simple Stock Market
+# Spring Boot Application Stock Market Trade API
 
 ## Built With
 
