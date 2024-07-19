@@ -22,7 +22,7 @@
 
 ## Running the application locally
 
-There are several ways to run `Super Simple Stock Market` on your local machine. One way is to execute the `main` method in the `com.gbce.stock.market.StockMarketApplication` class from your IDE.
+There are several ways to run `Super Simple Stock Market` on your local machine. One way is to execute the `main` method in the `com.nsebse.stock.market.StockMarketApplication` class from your IDE.
 
 - Download the zip or clone the Git repository.
 - Unzip the zip file (if you downloaded one)
@@ -43,11 +43,11 @@ mvn spring-boot:run
 
 |  URL |  Method | Remarks |
 |----------|--------------|--------------|
-|`http://localhost:8080/gbce/trade/{stock-symbol}`                | POST | Custom Response Headers|
-|`http://localhost:8080/gbce/{stock-symbol}/dividend-yield`       | GET | |
-|`http://localhost:8080/gbce/{stock-symbol}/pe-ratio`             | GET | |
-|`http://localhost:8080/gbce/{stock-symbol}/volume-weight-price`  | GET | |
-|`http://localhost:8080/gbce/all-share-index`                     | GET | |
+|`http://localhost:8080/nsebse/trade/{stock-symbol}`                | POST | Custom Response Headers|
+|`http://localhost:8080/nsebse/{stock-symbol}/dividend-yield`       | GET | |
+|`http://localhost:8080/nsebse/{stock-symbol}/pe-ratio`             | GET | |
+|`http://localhost:8080/nsebse/{stock-symbol}/volume-weight-price`  | GET | |
+|`http://localhost:8080/nsebse/all-share-index`                     | GET | |
 
 
 ## Documentation
